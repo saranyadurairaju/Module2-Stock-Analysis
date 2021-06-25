@@ -19,18 +19,25 @@ Also, Steve may want to perform his analysis on larger datasets, and he wants to
 As there are large number of data for different set of stocks during many years, we may need to do some analyze and write a generic Macro which will work for any data in future. 
 
 * Finding the number of Rows
+
 	RowCount = Cells(Rows.Count, "A").End(xlUp).Row
 
 * Using Arrays for multiple Stocks
+
 	Dim tickers(12) As String
+	
 	Dim tickerVolumes(12) As Long
-    	Dim tickerStartingPrices(12) As Single
-    	Dim tickerEndingPrices(12) As Single
+    	
+	Dim tickerStartingPrices(12) As Single
+    	
+	Dim tickerEndingPrices(12) As Single
 
 * Getting the user Input "Year" to automate 
+
 	yearValue = InputBox("What year would you like to run the analysis on?")
 
 * Calculating the run time of the program
+
 	MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 	
 ## Challenges
@@ -74,7 +81,7 @@ Below is the Macro enabled excel worksheet for Stock Analysis.
 
 ## Summary
 
-#### Refactoring Code
+### Refactoring Code
 
 Code Refactoring is a way of restructuring and optimizing existing code without changing its behavior. It is a way to improve the code quality and a sharp weapon for developers in their maintenance activities. 
 
@@ -93,7 +100,7 @@ Code Refactoring is a way of restructuring and optimizing existing code without 
 - Current program output shouldn't be impacted 
 
 
-#### Pros and Cons of Refactoring Stock Analysis script
+### Pros and Cons of Refactoring Stock Analysis script
 
 The Original and refactoring Script gave the same result in our Stock Analysis script. So, its clear that we didn't impact the any output. But Refactoring has its own Pros and Cons.
 
@@ -111,4 +118,4 @@ The Original and refactoring Script gave the same result in our Stock Analysis s
 - It will be a problem if the data is not in order
 
 
-Everything is automated and Steve can help for his parent's investment with the output data in no time. Wishing Steve all the very best!
+Everything is automated and Steve can help his parent's for their investment with the output data in no time. Wishing Steve all the very best!

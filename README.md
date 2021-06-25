@@ -78,6 +78,11 @@ Below is the Macro enabled excel worksheet for Stock Analysis.
 
 ![VBA_Challenge_Coding](https://github.com/saranyadurairaju/Module1-Final-Assignment-Analysis/blob/main/Outcomes_vs_Goals.png)
  
+ * Below are the Run time of the script for the 2017 and 2018.
+ 
+ ![VBA_Challenge_2017](https://github.com/saranyadurairaju/Module1-Final-Assignment-Analysis/blob/main/Outcomes_vs_Goals.png)
+ 
+ ![VBA_Challenge_2018](https://github.com/saranyadurairaju/Module1-Final-Assignment-Analysis/blob/main/Outcomes_vs_Goals.png)
 
 ## Summary
 
